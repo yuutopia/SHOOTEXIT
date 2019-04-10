@@ -13,6 +13,9 @@ TagManager:
   - UI
   - 
   - 
+  - Depth0
+  - Depth-2
+  - Front
   - 
   - 
   - 
@@ -33,11 +36,23 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Back
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Back
+    uniqueID: 4227434415
+    locked: 0
+  - name: Road
+    uniqueID: 2558556599
+    locked: 0
+  - name: Objects
+    uniqueID: 2452039809
+    locked: 0
+  - name: Char
+    uniqueID: 2661682417
+    locked: 0
+  - name: Front
+    uniqueID: 4076989891
     locked: 0

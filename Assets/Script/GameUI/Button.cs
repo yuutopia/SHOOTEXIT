@@ -18,24 +18,24 @@ public class Button : MonoBehaviour
     {
         if (rightmove == true)
         {
-            transform.position += new Vector3(1 * Time.deltaTime, 0, 0);
+            transform.position += new Vector3(-1 * Time.deltaTime, 0, 0);
         }
         if (leftmove == true)
         {
-            transform.position += new Vector3(-1 * Time.deltaTime, 0, 0);
+            transform.position += new Vector3(1 * Time.deltaTime, 0, 0);
         }
     }
     public void rightButtonUP(){
-        rightmove = true;
+        rightmove = false;
     }
     public void rightButtonDOWN(){
-        rightmove = false;
+        rightmove = true;
     }
 
     public void leftButtonUP(){
-        leftmove = true;
+        leftmove = false;
     }
     public void leftButtonDOWN(){
-        leftmove = false;
+        leftmove = true;
     }
 }

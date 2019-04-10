@@ -60,7 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Attack.cs" />
+    <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\Script\GameUI\Button.cs" />
+    <Compile Include="Assets\Script\GameUI\SceneController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/ゲーム開発/Unity/SHOOT EXIT/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
