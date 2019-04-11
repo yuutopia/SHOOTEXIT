@@ -60,8 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Attack.cs" />
+    <Compile Include="Assets\Bullet.cs" />
     <Compile Include="Assets\Health.cs" />
+    <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\PlayerEnemy.cs" />
+    <Compile Include="Assets\Script\Enemy.cs" />
     <Compile Include="Assets\Script\GameUI\Button.cs" />
     <Compile Include="Assets\Script\GameUI\SceneController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
